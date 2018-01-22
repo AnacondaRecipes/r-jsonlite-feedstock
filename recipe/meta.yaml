@@ -10,8 +10,8 @@ package:
 source:
   fn: jsonlite_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/jsonlite_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/jsonlite/jsonlite_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/jsonlite_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/jsonlite/jsonlite_{{ version }}.tar.gz
   sha256: 6490371082a387cb1834048ad8cdecacb8b6b6643751b50298c741490c798e02
 
 
